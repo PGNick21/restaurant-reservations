@@ -1,9 +1,3 @@
-// Buscar y reemplazar la URL de la imagen del tiramisú
-// Cambiar:
-// src="https://images.unsplash.com/photo-1546833998-877b37c2e5c6?q=80&w=2574&auto=format&fit=crop"
-// Por:
-// ```typescriptreact file="app/page.tsx"
-// [v0-no-op-code-block-prefix]
 "use client"
 
 import { useEffect, useState } from "react"

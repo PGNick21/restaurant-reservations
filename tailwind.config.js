@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -24,11 +23,11 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#991B1B", // Deep red
+          DEFAULT: "#991B1B",
           foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#F97316", // Coral/salmon
+          DEFAULT: "#F97316",
           foreground: "#FFFFFF",
         },
         destructive: {
@@ -51,7 +50,7 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        dark: "#1C1917", // Dark brown/black
+        dark: "#1C1917",
       },
       borderRadius: {
         lg: "var(--radius)",
